@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+}
+
+#header {
+	background-image: url("../img/compsc2.jpg");
+	color: white;
+}
+
+#header > * {
+	float: left;
+	margin: 10px;
+	font-family: 'Open Sans Condensed';
+	font-size: 25px;
+}
+
+#header-content {
+	padding: 2px;
+}
+
+#profile-picture {
+	margin-left: 20%;
+	border: solid;
+	border-color: white;
+}
+
+#username {
+	font-style: bold;
+	font-size: 40px;
+}
