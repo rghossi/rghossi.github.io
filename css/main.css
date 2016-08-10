@@ -2,9 +2,19 @@ body {
 	margin: 0;
 }
 
+a {
+	color: white;
+	text-decoration: underline;
+}
+
+.navbar-link {
+	text-decoration: none;
+}
+
 #header {
 	background-image: url("../img/compsc2.jpg");
 	color: white;
+	-webkit-transform: translate3d(0,0,0);
 }
 
 #header > * {
@@ -27,4 +37,33 @@ body {
 #username {
 	font-style: bold;
 	font-size: 40px;
+}
+
+#navbar {
+    text-align: center;
+    background-color: #008B8B;
+}
+
+.nav .navbar-nav {
+	display: inline-block;
+	float: none;
+}
+
+#content > * {
+	padding: 50px;
+}
+
+#content div:nth-child(even) {
+	background: black;
+	color: white;
+}
+
+h2 {
+	color: #008B8B;
+}
+
+.fixed {
+	position: fixed;
+	top:0; left:0;
+	width: 100%;
 }
