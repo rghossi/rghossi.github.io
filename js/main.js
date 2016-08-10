@@ -19,3 +19,18 @@ $("li").click(function() {
         'slow');
     return false;
 });
+
+function initMap() {
+	var myLatLng = {lat: -21.769889, lng: -41.3147017};
+	var mapDiv = document.getElementById('map');
+	var map = new google.maps.Map(mapDiv, {
+	    center: myLatLng,
+	    zoom: 7
+	});
+
+	var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map
+  });
+}
+
