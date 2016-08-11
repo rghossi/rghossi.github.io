@@ -42,6 +42,7 @@ a {
 #navbar {
     text-align: center;
     background-color: #008B8B;
+    z-index: 9999;
 }
 
 .nav .navbar-nav {
@@ -53,9 +54,9 @@ a {
 	padding: 50px;
 }
 
-#content div:nth-child(even) {
+#content > div:nth-child(even) {
 	background: black;
-	color: white;
+	color: gray;
 }
 
 h2 {
@@ -71,4 +72,12 @@ h2 {
 #map {
   width: 50%;
   height: 400px;
+}
+
+.date-inverted {
+	float: right;
+}
+
+.inverted-content .text-muted {
+	color: yellow;
 }
