@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	font-family: 'Overlock';
 }
 
 a {
@@ -20,8 +21,8 @@ a {
 #header > * {
 	float: left;
 	margin: 10px;
-	font-family: 'Open Sans Condensed';
-	font-size: 25px;
+	font-family: 'Roboto Condensed';
+	font-size: 20px;
 }
 
 #header-content {
@@ -36,7 +37,8 @@ a {
 
 #username {
 	font-style: bold;
-	font-size: 40px;
+	font-size: 30px;
+	font-family: 'Overlock';
 }
 
 #navbar {
