@@ -1,5 +1,10 @@
+body {
+	margin-top: 64px;
+	background-color: #C9DEDB;
+}
+
 .navbar {
-	background-color: #3C887E;
+	background-color: #1C3E3A;
 }
 
 .navbar-brand {
@@ -15,4 +20,39 @@
 .img-circle {
     border-radius: 50%;
     height: 40px;
+}
+
+.button-circle { 
+	border-radius: 50%;
+}
+
+.thumbnail > a > img {
+	height: 180px;
+	min-width: 50%;
+	max-width: 100%;
+}
+
+.project-preview {
+	margin-bottom: 20px;
+}
+
+.about {
+	background-color: #71A8A1;
+	padding: 30px 20px 30px 20px;
+}
+
+.projects {
+	padding-top: 30px;
+}
+
+.projects > .row {
+	padding: 0;
+}
+
+.row {
+	margin: 0;
+}
+
+.caption {
+	margin-top: 5px;
 }
