@@ -95,6 +95,7 @@ hr {
 
 .caption {
 	margin-top: 5px;
+	color: #1C3E3A;
 }
 
 .sub-skill {
@@ -109,4 +110,9 @@ hr {
 
 .progress-bar {
 	height: 7px;
+}
+
+.projects > h1 {
+	font-family: Ostrich Sans; 
+	color: #1C3E3A;
 }
