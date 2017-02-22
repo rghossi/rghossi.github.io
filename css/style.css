@@ -96,3 +96,17 @@ hr {
 .caption {
 	margin-top: 5px;
 }
+
+.sub-skill {
+	color: white;
+	margin-top: 10px;
+	text-align: left;
+}
+
+.progress {
+	margin: 0;
+}
+
+.progress-bar {
+	height: 7px;
+}
