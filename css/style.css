@@ -38,6 +38,11 @@ a { color: inherit; }
 	color: white;
 }
 
+.about > div > h3 {
+	font-family: "Ostrich Sans";
+	color: white;
+}
+
 hr {
 	border: 1px solid white;
 }
@@ -89,6 +94,10 @@ hr {
 	padding: 0;
 }
 
+.projects > .skill-group {
+	padding: 8px;
+}
+
 .row {
 	margin: 0;
 }
@@ -115,4 +124,21 @@ hr {
 .projects > h1 {
 	font-family: Ostrich Sans; 
 	color: #1C3E3A;
+}
+
+.skill-group > fieldset > .sub-skill {
+	color: #1C3E3A;
+}
+
+fieldset {
+	border: 1px solid black;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+
+@media (min-width: 700px) { 
+	fieldset:nth-child(odd) {
+	  margin-right: 3px;
+	  margin-left: -3px;
+	}
 }
