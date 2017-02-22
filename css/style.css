@@ -11,12 +11,22 @@ body {
 	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 
+a { color: inherit; } 
+
 .education-content > small {
 	display: block;
 }
 
 .education-content > div {
 	color: white;
+}
+
+.about > a {
+	font-size: 36px;
+}
+
+.about > a:hover {
+	color: black;
 }
 
 .education-content {
