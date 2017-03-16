@@ -5,7 +5,7 @@ var projects = [
 		id: 1,
 		name: "SCTI Website 2016",
 		github: "https://github.com/peperrone/scti2016",
-		live: "scti.uenf.br",
+		live: "http://scti.uenf.br",
 		desc: "SCTI is an annual event hosted by UENF (a brazilian univeristy) where computer science students pay a small fee to enroll in various workshops and talks about the job market and CS-related stuff. I was responsible for the official website (more specifically, the back-end) which would deal with student payments, login, signup, etc.",
 		features: ["Login", "Signup", "Event Dashboard", 
 			"Change Password", "Change Profile", "Payments with Paypal (integrated)", 
