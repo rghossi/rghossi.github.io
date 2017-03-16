@@ -2,6 +2,7 @@ var app = angular.module("myPersonalWebsite", []);
 
 var projects = [
 	{
+		id: 1,
 		name: "SCTI Website 2016",
 		github: "https://github.com/peperrone/scti2016",
 		live: "scti.uenf.br",
@@ -14,6 +15,7 @@ var projects = [
 		imgUrl: "imgs/scti_2016.png"
 	},
 	{
+		id: 2,
 		name: "Voting SPA",
 		github: "https://github.com/rghossi/Vote4Real",
 		live: "https://vote4real.herokuapp.com",
@@ -33,6 +35,7 @@ var projects = [
 		imgUrl: "imgs/voting_app.png"
 	},
 	{
+		id: 3,
 		name: "Nightlife Coordinator",
 		github: "https://github.com/rghossi/nightlife-coordinator",
 		live: "https://imgoingto.herokuapp.com",
@@ -47,6 +50,7 @@ var projects = [
 		imgUrl: "imgs/nightlife_coord.png"
 	},
 	{
+		id: 4,
 		name: "Watch Stock Markets",
 		github: "https://github.com/rghossi/watch-stock-market",
 		live: "https://watch-stock-market.herokuapp.com",
@@ -61,6 +65,7 @@ var projects = [
 		imgUrl: "imgs/watch_stocks.png"
 	},
 	{
+		id: 5,
 		name: "Climatempo Demo",
 		github: "https://github.com/rghossi/challenge-accepted",
 		live: "https://climatempo-demo.herokuapp.com/",

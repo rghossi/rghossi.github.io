@@ -181,11 +181,46 @@
             <div class="row">
               <div class="project-preview col-xs-12 col-md-6 col-lg-4 text-center" ng-repeat="p in projects">
                 <div class="thumbnail">
-                  <a href="#"><img ng-src={{p.imgUrl}} alt="Project 1"></a>
+                  <a href="" data-toggle="modal" ng-attr-data-target="{{'#modal' + p.id}}"><img ng-src={{p.imgUrl}} alt="Project 1"></a>
                   <div class="caption">
                     <h5>{{p.name}} <a ng-href={{p.github}} target="_blank"><i class="fa fa-github"></i></a></h5>
                   </div>
                 </div>
+
+                <div class="modal fade" ng-attr-id="{{'modal' + p.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">{{p.name}}</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        {{p.desc}}
+                        <hr />
+                        <h6><strong>User Stories</strong></h6>
+                        <ul>
+                          <li ng-repeat="u in p.userStories">
+                            {{u}}
+                          </li>
+                        </ul>
+                        <hr />
+                        <h6><strong>Technologies</strong></h6>
+                        <ul>
+                          <li ng-repeat="d in p.developedWith">
+                            {{d}}
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <a href="https://google.com" class="btn btn-danger active" role="button" target="_blank">Live Demo</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>

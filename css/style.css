@@ -142,3 +142,13 @@ fieldset {
 	  margin-left: -3px;
 	}
 }
+
+.modal-body {
+	text-align: left;
+	background-color: #C9DEDB;
+}
+
+.modal-header, .modal-footer {
+	background-color: #2C635C;
+	color: white;
+}
