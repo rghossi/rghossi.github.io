@@ -199,12 +199,20 @@
                       <div class="modal-body">
                         {{p.desc}}
                         <hr />
-                        <h6><strong>User Stories</strong></h6>
+                        <div ng-if="p.userStories"><h6><strong>User Stories</strong></h6>
                         <ul>
                           <li ng-repeat="u in p.userStories">
                             {{u}}
                           </li>
                         </ul>
+                        </div>
+                        <div ng-if="p.features"><h6><strong>Features</strong></h6>
+                        <ul>
+                          <li ng-repeat="f in p.features">
+                            {{f}}
+                          </li>
+                        </ul>
+                        </div>
                         <hr />
                         <h6><strong>Technologies</strong></h6>
                         <ul>
