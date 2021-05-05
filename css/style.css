@@ -61,6 +61,11 @@ hr {
 	height: 28px;
 }
 
+.disclaimer {
+	color: #C9DEDB;
+	text-align: center;
+}
+
 .img-circle {
     border-radius: 50%;
     height: 40px;
